@@ -5,12 +5,12 @@ This repository contains equity screening models built using Thinkorswim to iden
 
 The goal of this project is to develop a structured, multi-stage approach to equity analysis used to filter stocks and identify those with strong forward-looking potential.
 
----
+
 
 ## Purpose
 The purpose of this project is to identify stocks with strong momentum, volume, and trend characteristics that may indicate continued directional movement, and to filter the broader equity universe into a focused set of candidates for further analysis.
 
----
+
 
 ## Stage 1: Universe Screener
 
@@ -28,7 +28,7 @@ This initial screening layer is used to identify stocks that meet specific liqui
 ### Stage Objective
 This screener serves as a first-pass market filter to eliminate illiquid and weak-trend stocks before deeper analysis is applied.
 
----
+
 
 ## Future Expansion
 - Momentum-based trade setup identification
@@ -36,7 +36,7 @@ This screener serves as a first-pass market filter to eliminate illiquid and wea
 - Python-based replication of screening logic
 - Backtesting and performance evaluation of strategies
 
----
+
 
 ## Tools Used
 - Thinkorswim (TOS): Used for building and running custom equity screeners, applying technical filters, and scanning large stock universes.
