@@ -10,7 +10,7 @@ The goal of this project is to develop a structured, multi-stage approach to equ
 ## Purpose
 The purpose of this project is to identify stocks with strong momentum, volume, and trend characteristics that may indicate continued directional movement, and to filter the broader equity universe into a focused set of candidates for further analysis.
 
-
+---
 
 ## Stage 1: Universe Screener
 
