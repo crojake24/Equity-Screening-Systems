@@ -7,7 +7,7 @@
 ## Overview
 This repository documents a multi-stage equity screening framework built in Thinkorswim. 
 The system filters the broad equity universe down to a focused candidate list using 
-momentum, trend strength, and liquidity criteria — before deeper technical analysis is applied.
+momentum, trend strength, and liquidity criteria, before deeper technical analysis is applied.
 
 ---
 
