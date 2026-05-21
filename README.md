@@ -32,7 +32,7 @@ The first-pass filter eliminates illiquid, unprofitable, and weak-trend stocks f
 
 ## Roadmap
 
-- [ ] Stage 2: Momentum setup identification within filtered universe  
-- [ ] Breakout timing and entry signal development  
-- [ ] Python replication of screening logic  
-- [ ] Backtesting and strategy performance evaluation
+- Stage 2: Momentum setup identification within filtered universe  
+- Breakout timing and entry signal development  
+- Python replication of screening logic  
+- Backtesting and strategy performance evaluation
