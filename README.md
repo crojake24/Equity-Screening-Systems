@@ -30,13 +30,13 @@ The first-pass filter eliminates illiquid, unprofitable, and weak-trend stocks f
 ## Screenshots
 
 ### Scan Setup
-![Scan Setup](screenshots/scan_setup.png)
+![Scan Setup](screenshots/scan_setup.PNG)
 
 ### Scan Results
-![Scan Results](screenshots/scan_results.png)
+![Scan Results](screenshots/scan_results.PNG)
 
 ### Watchlist
-![Watchlist](screenshots/watchlist.png)
+![Watchlist](screenshots/watchlist.PNG)
 
 ---
 
