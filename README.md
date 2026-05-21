@@ -1,44 +1,38 @@
-# Equity Screening Systems
+# Equity Screening System — Stage 1 Universe Filter
+
+**Tools:** Thinkorswim, TradingView  
+**Indicators:** Moving Averages (200/50-day), RSI, ADX, EPS, Volume, Market Cap, Range Filter
+
+---
 
 ## Overview
-This repository contains equity screening models built using Thinkorswim to identify stocks based on momentum, trend strength, and liquidity filters.
 
-The goal of this project is to develop a structured, multi-stage approach to equity analysis used to filter stocks and identify those with strong forward-looking potential.
-
-
-
-## Purpose
-The purpose of this project is to identify stocks with strong momentum, volume, and trend characteristics that may indicate continued directional movement, and to filter the broader equity universe into a focused set of candidates for further analysis.
+This repository documents a multi-stage equity screening framework built in Thinkorswim. 
+The system filters the broad equity universe down to a focused candidate list using 
+momentum, trend strength, and liquidity criteria — before deeper technical analysis is applied.
 
 ---
 
 ## Stage 1: Universe Screener
 
-This initial screening layer is used to identify stocks that meet specific liquidity, momentum, and trend-based criteria.
+The first-pass filter eliminates illiquid, unprofitable, and weak-trend stocks from consideration.
 
-### Filters Used:
-- 200-day moving average strength ≥ 7.5%
-- 50-day moving average strength ≥ 5%
-- RSI (14) > 25
-- ADX (14) breakout filter
-- Market cap ≥ $300M
-- Volume ≥ 500K
-- Range filter (75)
+| Filter                     | Threshold     | Purpose                                      |
+|----------------------------|---------------|----------------------------------------------|
+| 200-Day MA Strength        | ≥ 7.5%        | Confirms long-term uptrend                   |
+| 50-Day MA Strength         | ≥ 5%          | Confirms intermediate trend momentum         |
+| RSI (14)                   | > 25          | Excludes deeply oversold / broken stocks     |
+| ADX (14)                   | Breakout only | Filters for directional strength             |
+| Range Filter               | 75            | Targets stocks with sufficient price action  |
+| Market Cap                 | ≥ $300M       | Ensures institutional liquidity              |
+| EPS (TTM)                  | > 0           | Excludes unprofitable companies              |
+| Average Volume             | ≥ 500K shares | Eliminates thinly traded securities          |
 
-### Stage Objective
-This screener serves as a first-pass market filter to eliminate illiquid and weak-trend stocks before deeper analysis is applied.
+---
 
+## Roadmap
 
-
-## Future Expansion
-- Momentum-based trade setup identification
-- Breakout timing and entry signal development
-- Python-based replication of screening logic
-- Backtesting and performance evaluation of strategies
-
-
-
-## Tools Used
-- Thinkorswim (TOS): Used for building and running custom equity screeners, applying technical filters, and scanning large stock universes.
-- TradingView: Chart analysis and technical validation of screened stocks
-- Technical indicators (MA, RSI, ADX): Used to define trend, momentum, and strength conditions
+- [ ] Stage 2: Momentum setup identification within filtered universe  
+- [ ] Breakout timing and entry signal development  
+- [ ] Python replication of screening logic  
+- [ ] Backtesting and strategy performance evaluation
